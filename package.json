@@ -1,0 +1,16 @@
+{
+  "name": "xpasswd",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "xpasswd.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikepb/xpasswd.git"
+  },
+  "scripts": {
+    "test": "mocha --check-leaks *_test.js"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
